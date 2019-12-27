@@ -1,10 +1,10 @@
 import React from 'react';
 import {View} from 'react-native';
 
-import FBLoginButton from './FBLoginButton';
+import MainComponent from './LoginManagerView';
 
 export default props => (
   <View>
-    <FBLoginButton />
+    <MainComponent />
   </View>
 );
